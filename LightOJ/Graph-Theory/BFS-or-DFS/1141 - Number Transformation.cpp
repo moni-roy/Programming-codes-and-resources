@@ -2,14 +2,14 @@
 using namespace std;
 
 typedef long long 		ll;
-typedef long long unsigned 		llu;
-typedef double 		dl;
+typedef long long unsigned 	llu;
+typedef double 			dl;
 typedef pair<int,int> 		pii;
 typedef pair<ll,ll> 		pll;
 typedef vector<int> 		vi;
 typedef map<int,int> 		mii;
 typedef map<ll,ll> 		mll;
-typedef map<string,int> 		msi;
+typedef map<string,int> 	msi;
 typedef map<char,int> 		mci;
 
 #define PI		acos(-1.0)
