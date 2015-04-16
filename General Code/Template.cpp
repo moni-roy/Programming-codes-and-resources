@@ -13,17 +13,17 @@ typedef map<string,int>    	msi;
 typedef map<char,int>      	mci;
 
 #define PI  		acos(-1.0)
-#define sn	    	second
-#define fs 	    	first
-#define pb	    	push_back
-#define mp	    	make_pair
+#define S	    	second
+#define F 	    	first
+#define PB	    	push_back
+#define MP	    	make_pair
 #define zero(a) 	memset(a,0,sizeof a)
 #define minus(a) 	memset(a,-1,sizeof a)
 #define setinf(a) 	memset(a,126,sizeof a)
 #define FR(i,x,y) 	for(int i=x;i<=y;i++)
 #define FRV(i,x,y) 	for(int i=x;i>=y;i--)
 #define all(v)		(v.begin(),v.end())
-#define vsort(v)	sort(all(v))
+#define vsort(v)	sort(v.begin(),v.end())
 #define nl  		puts("")
 #define tcase(cs) 	printf("Case %d:",++cs)
 #define endl		'\n'
@@ -36,4 +36,5 @@ int main()
 {
 	I_O;
 	cout<<"Ready to go!"<<endl;
+	return 0;
 }
